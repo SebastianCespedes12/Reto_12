@@ -19,5 +19,5 @@ cont_palabr.sort(key=lambda x: x[1], reverse=True)  # Ordenar la lista por frecu
 top_50 = cont_palabr[:50]  # Obtener los 50 primeros
 
 # Imprimir las 50 palabras más frecuentes
-for palabra, N_veces in top_50:
-    print(f"{palabra}: {N_veces}")
+for palabra, N_veces in top_50: #Se recorren las 50 palabras más frecuentes
+    print(f"{palabra}: {N_veces}") #Se imprime la palabra y la cantidad de veces que aparece
